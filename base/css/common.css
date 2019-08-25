@@ -1,0 +1,32 @@
+/*reset*/
+*{margin:0px;}
+body {
+  font-family: 'fzlt', "微软雅黑";
+  margin: 0;
+  color:#666;
+}
+
+
+/*去掉高亮*/
+
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/*ios 去掉圆角*/
+
+input,
+button {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+
+/*屏幕切换 文字变化*/
+
+body * {
+  -webkit-text-size-adjust: 100%;
+}
