@@ -1107,10 +1107,11 @@ li {
   font-size: 16px;
   padding-top: 10px;
 }
-.about_text_a{
+
+.about_text_a {
   font-size: 12px;
-  color:#c0392b;
-  padding-left:5px;
+  color: #c0392b;
+  padding-left: 5px;
 }
 
 .about_xian {
@@ -1158,7 +1159,7 @@ li {
 .business_div p {
   font-size: 14px;
   line-height: 26px;
-  color:#666;
+  color: #666;
 }
 
 
@@ -1186,8 +1187,8 @@ li {
 .contact_commot {
   width: 100%;
   overflow: hidden;
-  margin-top: 100px;
-  margin-bottom: 110px;
+  padding-top: 50px;
+  margin-bottom: 250px;
 }
 
 .contact_left {
@@ -1221,7 +1222,7 @@ li {
 
 .contact_lable {
   float: left;
-  width:30%;
+  width: 30%;
   text-align: right;
 }
 
@@ -1284,6 +1285,13 @@ li {
 }
 
 .about_box_item_contain {
+  width: 80%;
+  line-height: 45px;
+  float: left;
+}
+
+.about_box_item_contain_active {
+  padding-left: 20%;
   width: 80%;
   line-height: 45px;
   float: left;
@@ -1396,14 +1404,16 @@ p.company-p-title2 {
   box-shadow: #eee 0px 0px 18px;
   background-color: #fff;
 }
-.hz_show_h2{
+
+.hz_show_h2 {
   text-align: center;
   padding-top: 50px;
 }
+
 .hz_zz {
   padding-left: 70px;
   padding-top: 50px;
-  width:300px;
+  width: 300px;
 }
 
 .hz_info {
@@ -1415,7 +1425,8 @@ p.company-p-title2 {
   font-size: 25px;
   padding-top: 10px;
 }
- .span-title {
+
+.span-title {
   font-size: 30px;
   color: #bf3a2b;
 }
@@ -1525,6 +1536,20 @@ p.company-p-title2 {
   position: relative;
   z-index: -2;
 }
-.flex{position: fixed;top:0;left:0;width:100%;z-index: 2;}
-.bg_white{width:100%;background-color: #fff;}
-.top_kong{padding-top:122px;}
+
+.flex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.bg_white {
+  width: 100%;
+  background-color: #fff;
+}
+
+.top_kong {
+  margin-top: 122px;
+}
