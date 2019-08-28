@@ -1553,3 +1553,7 @@ p.company-p-title2 {
 .top_kong {
   margin-top: 122px;
 }
+.top_kong_bg {
+  position:relative
+}
+.index-text{width:600px;position: absolute;top:250px;}
